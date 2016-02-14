@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= "#{@author.name}'s Books" %></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @author.books.each do |book| %>
+      <tr>
+        <td><%= book.name %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+

@@ -1,0 +1,8 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>You're viewing the profile of:</strong>
+  <%= @author.name %>
+</p>
+
+<%= link_to 'View Books', books_author_path(@author) %> 
