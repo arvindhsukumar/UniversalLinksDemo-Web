@@ -4,6 +4,6 @@
   "repository": "https://github.com/arvindhsukumar/UniversalLinksDemo-Web",
   "keywords": ["iOS"],
   "scripts": {
-    "postdeploy": "bundle exec rake db:seed"
+    "postdeploy": "bundle exec rake db:reseed"
   }
 }
