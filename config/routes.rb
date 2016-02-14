@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get '/apple-app-site-association' => 'static#association'
+
   resources :authors do 
     member do 
       get 'books'
