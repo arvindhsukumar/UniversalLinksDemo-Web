@@ -1,0 +1,11 @@
+{
+   "applinks": {
+       "apps": [ ], 
+       "details": [
+           {
+               "appID": "72H8ZPD4X8ID.com.behindtechlines.UniversalLinksDemo",
+               "paths": [ "/authors","/authors/*/books", "/authors/*" ]
+           }
+       ]
+    }
+}
