@@ -3,7 +3,7 @@
        "apps": [ ], 
        "details": [
            {
-               "appID": "72H8ZPD4X8ID.com.behindtechlines.UniversalLinksDemo",
+               "appID": "72H8ZPD4X8.com.behindtechlines.UniversalLinksDemo",
                "paths": [ "/authors","/authors/*/books", "/authors/*" ]
            }
        ]
