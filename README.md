@@ -14,5 +14,7 @@ Deploy this app on Heroku:
 Click on the following links from Safari on the device
 
 https://universallinksdemo.herokuapp.com/authors
+
 https://universallinksdemo.herokuapp.com/authors/2
+
 https://universallinksdemo.herokuapp.com/authors/3/books
