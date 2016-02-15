@@ -18,7 +18,7 @@ class AuthorsController < ApplicationController
 
     respond_to do |format|
       format.html
-      format.json {render json: @books}
+      format.json {render json: {author:@author,books:@books}}
     end
   end
 
